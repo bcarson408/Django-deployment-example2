@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Relative URL TEMPLATES
+		</title>
+		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Welcome to Relative URL TEMPLATES</h1>
+				<a href="{% url 'basic_app:other'%}">Other page</a>
+				<a href="{% url 'admin:index'%}">Admin</a>
+				<a href="{%url 'index'%}">index</a>
+			</div>
+
+		</div>
+
+	</body>
+</html>
